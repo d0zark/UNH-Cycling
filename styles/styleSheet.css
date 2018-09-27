@@ -1,0 +1,26 @@
+/*------StyleSheet.css------*/
+#logo{
+    width: 80px;
+}
+
+#mediaLinks {
+    padding-right: 9%
+}
+
+#instaLogo {
+    padding-top: 10px;
+}
+
+#navLinks li {
+    width: 150px;
+    padding-left: 20px
+}
+
+.navbar-brand {
+    padding-left: 9%;
+}
+
+@media (max-width: 920px) {
+ .navbar-brand { 
+ } 
+}

@@ -10,15 +10,13 @@
         <! Developed using Bootstrap 4 Component Library
         <!     http://getbootstrap.com/ >
         
-        <! Last Update: 9/25/2018 >
+        <! Last Update: 10/3/2018 >
 
 <! /////////////////////////////////////////////////////////////////
     
     <head>
-
-        
-          <!-- Required meta tags -->
-        
+   <!-- Required meta tags -->
+            
           <meta charset="utf-8">
         
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -40,12 +38,16 @@
         <body>
             
             <!---- Navbar ----->
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
+            
+            <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 
-                <!---- Logo and Text  ----->
-                <a class="navbar-brand" href="#">
-                    <img id="logo" src="media/UNHWildcats.png" alt="UNH Cycling"/> Cycling
-                </a>
+                <div class="container-fluid">
+                    
+                    <!---- Logo and Text  ----->
+                    <a class="navbar-brand" href="#">
+                        <img id="logo" src="media/UNHWildcats.png" alt="UNH Cycling"/> Cycling
+                    </a>
                 
                  <!---- Button  ----->
                 <button class="navbar-toggler"  data-toggle="collapse" data-target="#navbarMenu" >
@@ -56,7 +58,7 @@
                 
                  <!---- Menu and Nav Items  ----->
                 <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav" >
+                    <ul class="navbar-nav mx-auto" id="navLinks" >
                     
                          <!---- Alum ----->
                         <li class="nav-item">
@@ -77,9 +79,62 @@
                             <a href="#" class="nav-link">Roster</a>
                         </li>
                     </ul>
-                
+                    </div>
                 </div>
+                    </nav>    
+                
+            <nav class="navbar navbar-expand fixed-bottom navbar-light bg-light">
+                
+                <div class="container-fluid">
+                
+                    <ul class="navbar-nav mx-auto" id="mediaLinks">
+                        
+                        
+                        <!--Facebook-->
+                        
+                        <li class="nav-item" id="fbLogo">
+                            
+                            <a href="https://www.facebook.com/UNHCycling/" class="nav-link">
+                                
+                                <img src="media/FBIcon.png" height="50px"/>
+                            
+                            </a>
+                            
+                        </li>
+                        
+                        
+                        <!--Twitter-->
+                        
+                        <li class="nav-item" id="twitterLogo">
+                            
+                            <a href="https://twitter.com/unhcycling" class="nav-link">
+                                
+                                <img src="media/TwitterIcon.png" height="50px"/>
+                            
+                            </a> 
+                        </li>
+                        
+                        
+                        <!--Instagram-->
+                        
+                        <li class="nav-item" id="instaLogo">
+                            
+                            <a href="https://www.instagram.com/unhcycling/" class="nav-link">
+                                
+                                <img src="media/instaLogo.png" height="30px"/>
+                            
+                            </a>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                
             </nav>
+            </div>
+            
+            <!---- Body Content --->
 
         <!-- Optional JavaScript -->
         <!----------------- Bootstrap library referencing ------------>

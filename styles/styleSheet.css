@@ -3,9 +3,6 @@
     width: 80px;
 }
 
-#mediaLinks {
-    padding-right: 9%
-}
 
 #instaLogo {
     padding-top: 10px;
@@ -23,4 +20,3 @@
 @media (max-width: 920px) {
  .navbar-brand { 
  } 
-}

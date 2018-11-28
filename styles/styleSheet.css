@@ -20,3 +20,8 @@
 @media (max-width: 920px) {
  .navbar-brand { 
  } 
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 75%;
+}
